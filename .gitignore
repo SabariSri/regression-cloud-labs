@@ -1,0 +1,5 @@
+.idea
+target
+test-output
+src/main/java/com/org/screenshots
+*.iml

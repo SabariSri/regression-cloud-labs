@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SwagLabs" parallel="tests" thread-count="3">
+    <test name="SwagLabs_chrome" preserve-order="true">
+        <parameter name="browser_name" value="chrome"/>
+        <classes>
+            <class name="com.org.tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="SwagLabs_firefox" preserve-order="true">-->
+<!--        <parameter name="browser_name" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.org.tests.LoginPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="SwagLabs_edge" preserve-order="true">
+        <parameter name="browser_name" value="Edge"/>
+        <classes>
+            <class name="com.org.tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
+

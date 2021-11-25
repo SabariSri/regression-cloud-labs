@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SwagLabs">
+    <test name="SwagLabs_chrome">
+        <parameter name="browser_name" value="chrome"/>
+        <classes>
+            <class name="com.org.tests.LoginTestZalenium"/>
+        </classes>
+    </test>
+</suite>
+

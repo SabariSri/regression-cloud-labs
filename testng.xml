@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SwagLabs" ><!--parallel="tests" thread-count="1"-->
+    <test name="SwagLabs_01" preserve-order="true">
+        <parameter name="browser_name" value="chrome"/>
+        <classes>
+            <class name="com.org.tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
+
